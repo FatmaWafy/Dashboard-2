@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/master.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../IMAGES/favicon-32x32.png" />
+    <title>Settings</title>
+  </head>
+  <body>
+    <div class="page d-flex min-vh-100 bg-body-secondary">
+      <!-- s sidebar -->
+      <div
+        class="sidebar bg-white shadow position-relative text-center p-2 p-md-4"
+      >
+        <h3
+          class="position-relative text-center fw-bold fs-6 fs-md-5 p-1 mb-1 mb-md-5"
+        >
+          Elzero
+        </h3>
+        <ul class="list-unstyled p-0">
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-simple"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-none d-md-block fs-6 ms-2">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- e sidebar -->
+      <!-- s content -->
+      <div class="content overflow-hidden w-100">
+        <!-- s head -->
+        <div
+          class="head bg-white shadow d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="search position-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="border border-secondary-subtle rounded-3 ms-2 ps-4 p-2 fs-6 fw-light"
+              style="width: 170px"
+            />
+          </div>
+          <div class="icon d-flex align-items-center">
+            <span class="position-relative"
+              ><i class="fa-regular fa-bell fs-5"></i
+            ></span>
+            <img
+              src="../IMAGES/avatar.png"
+              alt=""
+              class="rounded-circle ms-3"
+              style="width: 32px; height: 32px"
+            />
+          </div>
+        </div>
+        <!-- e head -->
+        <h1 class="mt-4 mb-5 mx-4 position-relative fw-bold fs-3 m-0">
+          Settings
+        </h1>
+        <div class="containr">
+          <div class="row row-cols-1 row-cols-xl-2 g-3 p-3">
+            <div class="col Site">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Site Control</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Control The Website If There Is Maintenance
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="m-0 fs-6">Website Control</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Open/Close Website And Type The Reason
+                    </p>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                </div>
+                <div class="border-top mt-3">
+                  <textarea
+                    class="form-control bg-body-secondary border-0 mt-5 mb-0 fw-light"
+                    id="exampleFormControlTextarea1"
+                    placeholder="close message content"
+                    style="height: 150px"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col General">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">General Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    General Information About Your Account
+                  </p>
+                </div>
+                <div class="mb-3">
+                  <label for="First name" class="text-black-50 mb-1"
+                    >First name :</label
+                  >
+                  <input
+                    type="text"
+                    for="First name"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Second name" class="text-black-50 mb-1"
+                    >Second name :</label
+                  >
+                  <input
+                    type="text"
+                    for="Second name"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Email" class="text-black-50 mb-1">Email :</label>
+                  <input
+                    type="email"
+                    for="Email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <a
+                  href="index.html"
+                  class="btn btn-primary mt-4 me-3 mb-1 ms-auto btn-sm"
+                  >Save</a
+                >
+              </div>
+            </div>
+            <div class="col Security">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Security Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Security Information About Your Account
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center border-bottom mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Password</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Last Change On 25/10/2021
+                    </p>
+                  </div>
+                  <a href="index.html" class="btn btn-primary ms-auto btn-sm"
+                    >Change</a
+                  >
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center border-bottom mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Two-Factor Authentication</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Enable/Disable The Feature
+                    </p>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Devices</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Check The Login Devices List
+                    </p>
+                  </div>
+                  <a
+                    href="index.html"
+                    class="badge text-bg-secondary ms-auto btn-sm"
+                    >Devices</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col Social">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Social Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Social Media Information
+                  </p>
+                </div>
+                <div class="input-group mb-3 mt-4">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-twitter fs-6 text-info"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Twitter Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-facebook-f fs-4 text-primary"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Facebook Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i
+                      class="fa-brands fa-linkedin text-primary-emphasis opacity-75"
+                    ></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="linkedin Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-youtube text-danger"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Youtube Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col Widgets">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Widgets Control</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Show/Hide Widgets
+                  </p>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Quick Draft
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Yearly Targets
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Tickets Statistics
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Tickets Statistics
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Latest Tasks
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Latest Tasks
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col Backup">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Backup Manager</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Control Backup Time And Location
+                  </p>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Daily
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Weekly
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Monthly
+                  </label>
+                </div>
+                <div
+                  class="servers d-block d-md-flex align-items-center justify-content-between border-top p-3 mt-4 text-center g-3"
+                >
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <i class="fa-solid fa-server text-success"></i>
+                    Mega
+                  </div>
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <label for="server-two" class="">
+                      <i class="fa-solid fa-server text-danger"></i>
+                      Zero
+                    </label>
+                  </div>
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <label for="server-three">
+                      <i class="fa-solid fa-server text-info"></i>
+                      Sigma
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- e content -->
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/all.min.js"></script>
+    <script src="../JS/Script.js"></script>
+  </body>
+</html>
