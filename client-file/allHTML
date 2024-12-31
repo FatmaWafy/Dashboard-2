@@ -1,0 +1,2652 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/master.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../IMAGES/favicon-32x32.png" />
+    <title>Dashboard</title>
+  </head>
+  <body>
+    <div class="page d-flex min-vh-100 bg-body-secondary">
+      <!-- s sidebar -->
+      <div
+        class="sidebar bg-white shadow position-relative text-center p-2 p-md-4"
+      >
+        <h3
+          class="position-relative text-center fw-bold fs-6 fs-md-5 p-1 mb-1 mb-md-5"
+        >
+          Elzero
+        </h3>
+        <ul class="list-unstyled p-0">
+          <li>
+            <a
+              class="active d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-simple"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-none d-md-block fs-6 ms-2">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- e sidebar -->
+      <!-- s content -->
+      <div class="content overflow-hidden w-100">
+        <!-- s head -->
+        <div
+          class="head bg-white shadow d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="search position-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="border border-secondary-subtle rounded-3 ms-2 ps-4 p-2 fs-6 fw-light"
+              style="width: 170px"
+            />
+          </div>
+          <div class="icon d-flex align-items-center">
+            <span class="position-relative"
+              ><i class="fa-regular fa-bell fs-5"></i
+            ></span>
+            <img
+              src="../IMAGES/avatar.png"
+              alt=""
+              class="rounded-circle ms-3"
+              style="width: 32px; height: 32px"
+            />
+          </div>
+        </div>
+        <!-- e head -->
+        <h1 class="mt-4 mb-5 mx-4 position-relative fw-bold fs-3 m-0">
+          Dashboard
+        </h1>
+        <div class="containr">
+          <div class="row row-cols-1 row-cols-xl-2 g-3 p-3">
+            <!-- welcome -->
+            <div class="col Welcome">
+              <div class="card h-100 p-2 overflow-hidden border-0 rounded-3">
+                <div
+                  class="intro rounded-3 border border-white border-5 p-2 p-md-3 bg-body-secondary d-flex align-items-center justify-content-between"
+                >
+                  <div>
+                    <h2 class="fw-bold m-0 fs-5">Welcome</h2>
+                    <p class="mt-1 text-start text-black-50 fs-6">osama</p>
+                  </div>
+                  <img
+                    src="../IMAGES/welcome.png"
+                    alt="..."
+                    class="d-none d-md-block p-md-4"
+                    width="180px"
+                  />
+                </div>
+                <div>
+                  <img
+                    src="../IMAGES/avatar.png"
+                    class="rounded-circle border border-white border-3 shadow ms-md-3 d-md-block"
+                    alt=""
+                    width="55px"
+                    height="55px"
+                  />
+                </div>
+                <div
+                  class="body border-top border-bottom p-3 my-4 d-block d-md-flex"
+                >
+                  <div class="flex-grow-1">
+                    Osama Elzero
+                    <span class="d-block fs-6 mt-2 text-black-50"
+                      >Developer</span
+                    >
+                  </div>
+                  <div class="flex-grow-1">
+                    80
+                    <span class="d-block fs-6 mt-2 text-black-50"
+                      >Projects</span
+                    >
+                  </div>
+                  <div class="flex-grow-1">
+                    $8500
+                    <span class="d-block fs-6 mt-2 text-black-50">Earned</span>
+                  </div>
+                </div>
+                <a
+                  href="index.html"
+                  class="btn btn-primary mt-4 me-3 mb-2 ms-auto btn-sm"
+                  >Profile</a
+                >
+              </div>
+            </div>
+            <!-- "Quick-Draft -->
+            <div class="col Quick-Draft">
+              <div class="card h-100 p-2 overflow-hidden border-0 rounded-3">
+                <div class="body p-2">
+                  <div class=" ">
+                    <h2 class="fw-bold m-0 fs-4">Quick Draft</h2>
+                    <p class="text-black-50">Write A Draft For Your Ideas</p>
+                  </div>
+                  <div class="mb-3">
+                    <input
+                      type="text"
+                      class="form-control bg-body-secondary border-0"
+                      id="exampleFormControlInput1"
+                      placeholder="title"
+                    />
+                  </div>
+                  <div>
+                    <textarea
+                      class="form-control bg-body-secondary border-0"
+                      id="exampleFormControlTextarea1"
+                      placeholder="Your Thoughts .. "
+                      style="height: 150px"
+                    ></textarea>
+                  </div>
+                </div>
+                <a
+                  href="index.html"
+                  class="btn btn-primary mt-4 me-3 mb-1 ms-auto btn-sm"
+                  >Save</a
+                >
+              </div>
+            </div>
+            <!-- Yearly-Targets -->
+            <div class="col Yearly-Targets">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div class="mb-4">
+                  <h2 class="fw-bold m-0 fs-4">Yearly Targets</h2>
+                  <p class="mt-0 text-black-50">Targets Of The Year</p>
+                </div>
+                <div class="detailes d-flex">
+                  <div
+                    class="d-block icon bg-success text-success bg-opacity-10 d-block text-center p-4"
+                    style="width: 70px; height: 70px"
+                  >
+                    <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                  </div>
+                  <div class="progress-1 w-100 ms-3 mt-3">
+                    <div class="spans mb-2">
+                      <span class="mt-1 fw-bold text-start text-black-50"
+                        >Money :</span
+                      >
+                      <span class="fw-bold">$20.000</span>
+                    </div>
+                    <div
+                      class="progress mb-4"
+                      role="progressbar"
+                      aria-label="Success example"
+                      aria-valuenow="25"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div class="progress-bar bg-success" style="width: 25%">
+                        25%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="detailes d-flex mt-3">
+                  <div
+                    class="d-block icon bg-info text-info bg-opacity-10 d-block text-center p-4"
+                    style="width: 70px; height: 70px"
+                  >
+                    <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                  </div>
+                  <div class="progress-2 w-100 ms-3 mt-3">
+                    <div class="spans mb-2">
+                      <span class="mt-1 fw-bold text-start text-black-50"
+                        >Projects :</span
+                      >
+                      <span class="fw-bold">24</span>
+                    </div>
+                    <div
+                      class="progress mb-4"
+                      role="progressbar"
+                      aria-label="Info example"
+                      aria-valuenow="50"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar bg-info text-dark"
+                        style="width: 50%"
+                      >
+                        50%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <div class="detailes d-flex mt-3">
+                  <div
+                    class="d-block icon bg-warning text-warning bg-opacity-10 d-block text-center p-4"
+                    style="width: 70px; height: 70px"
+                  >
+                    <i class="fa-solid fa-dollar-sign fa-lg"></i>
+                  </div>
+                  <div class="progress-1 w-100 ms-3 mt-3">
+                    <div class="spans mb-2">
+                      <span class="mt-1 fw-bold text-start text-black-50"
+                        >Team :</span
+                      >
+                      <span class="fw-bold">12</span>
+                    </div>
+                    <div
+                      class="progress mb-4"
+                      role="progressbar"
+                      aria-label="Warning example"
+                      aria-valuenow="75"
+                      aria-valuemin="0"
+                      aria-valuemax="100"
+                    >
+                      <div
+                        class="progress-bar bg-warning text-dark"
+                        style="width: 75%"
+                      >
+                        75%
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Tickets-Statistics -->
+            <div class="col Tickets-Statistics">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-4">Tickets Statistics</h2>
+                  <p class="mt-0 text-black-50 mb-0">
+                    Everything About Support Tickets
+                  </p>
+                </div>
+                <div
+                  class="row row-cols-1 row-cols-md-2 text-center g-4 mb-0 mt-0"
+                >
+                  <div class="col">
+                    <div
+                      class="card h-100 mt-2 overflow-hidden border-0 rounded-3"
+                    >
+                      <div
+                        class="box border border-secondary-subtle p-2 d-block rounded-3"
+                      >
+                        <i
+                          class="fa-regular fa-rectangle-xmark fa-2x text-warning"
+                        ></i>
+                        <span class="d-block fw-bold fs-4">100</span>
+                        <p class="mt-1 mb-0 text-black-50">Deleted</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card h-100 mt-2 overflow-hidden border-0 rounded-3"
+                    >
+                      <div
+                        class="box border border-secondary-subtle p-2 d-block rounded-3"
+                      >
+                        <i class="fa-solid fa-spinner fa-2x text-primary"></i>
+                        <span class="d-block fw-bold fs-4">500</span>
+                        <p class="mt-1 mb-0 text-black-50">Pending</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card h-100 mt-2 overflow-hidden border-0 rounded-3"
+                    >
+                      <div
+                        class="box border border-secondary-subtle p-2 d-block rounded-3"
+                      >
+                        <i
+                          class="fa-regular fa-circle-check fa-2x text-success"
+                        ></i>
+                        <span class="d-block fw-bold fs-4">1900</span>
+                        <p class="mt-1 mb-0 text-black-50">Closed</p>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="col">
+                    <div
+                      class="card h-100 mt-2 overflow-hidden border-0 rounded-3"
+                    >
+                      <div
+                        class="box border border-secondary-subtle p-2 d-block rounded-3"
+                      >
+                        <i
+                          class="fa-regular fa-rectangle-xmark fa-2x text-danger"
+                        ></i>
+                        <span class="d-block fw-bold fs-4">100</span>
+                        <p class="mt-1 mb-0 text-black-50">Deleted</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <a href="index.html" class="btn btn-primary mt-4 mb-0"
+                  >Book Now</a
+                >
+              </div>
+            </div>
+            <!-- Latest-News -->
+            <div class="col Latest-News">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-4">Latest News</h2>
+                </div>
+                <div
+                  class="News d-block d-md-flex border-bottom mt-5 text-center text-md-start"
+                >
+                  <div>
+                    <img
+                      src="../IMAGES/news-01.png"
+                      alt=""
+                      class="mw-100 rounded-circle"
+                      style="width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 ms-2 d-flex flex-column flex-md-row text-center text-md-start justify-content-between align-items-center mb-4"
+                  >
+                    <div>
+                      <span class="fw-bold d-block fs-6 mt-1 mt-md-0"
+                        >Created SASS Section
+                      </span>
+                      <span class="fs-6 fw-light text-black-50"
+                        >New SASS Examples & Tutorials</span
+                      >
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary p-1 mt-2 mt-md-0"
+                      disabled
+                    >
+                      3 Days Ago
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="News d-block d-md-flex border-bottom mt-3 text-center text-md-start"
+                >
+                  <div class="">
+                    <img
+                      src="../IMAGES/news-02.png"
+                      alt=""
+                      class="mw-100 rounded-circle"
+                      style="width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 ms-2 d-flex flex-column flex-md-row text-center text-md-start justify-content-between align-items-center mb-4"
+                  >
+                    <div>
+                      <span class="fw-bold d-block fs-6 mt-1 mt-md-0"
+                        >Changed The Design
+                      </span>
+                      <span class="fs-6 fw-light text-black-50"
+                        >A Brand New Website Design</span
+                      >
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary p-1 mt-2 mt-md-0"
+                      disabled
+                    >
+                      3 Days Ago
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="News d-block d-md-flex border-bottom mt-3 text-center text-md-start"
+                >
+                  <div class="">
+                    <img
+                      src="../IMAGES/news-03.png"
+                      alt=""
+                      class="mw-100 rounded-circle"
+                      style="width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 ms-2 d-flex flex-column flex-md-row text-center text-md-start justify-content-between align-items-center mb-4"
+                  >
+                    <div>
+                      <span class="fw-bold d-block fs-6 mt-1 mt-md-0"
+                        >Team Increased</span
+                      >
+                      <span class="fs-6 fw-light text-black-50"
+                        >3 Developers Joined The Team</span
+                      >
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary p-1 mt-2 mt-md-0"
+                      disabled
+                    >
+                      3 Days Ago
+                    </button>
+                  </div>
+                </div>
+                <div
+                  class="News d-block d-md-flex mt-3 text-center text-md-start"
+                >
+                  <div class="">
+                    <img
+                      src="../IMAGES/news-04.png"
+                      alt=""
+                      class="mw-100 rounded-circle"
+                      style="width: 50px; height: 50px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 ms-2 d-flex flex-column flex-md-row text-center text-md-start justify-content-between align-items-center mb-4"
+                  >
+                    <div>
+                      <span class="fw-bold d-block fs-6 mt-1 mt-md-0"
+                        >Added Payment Gateway</span
+                      >
+                      <span class="fs-6 fw-light text-black-50"
+                        >New Payment Gateways Added</span
+                      >
+                    </div>
+                    <button
+                      type="button"
+                      class="btn btn-sm btn-outline-secondary p-1 mt-2 mt-md-0"
+                      disabled
+                    >
+                      3 Days Ago
+                    </button>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Latest-Tasks -->
+            <div class="col Latest-Tasks">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold fs-4 mb-4">Latest Tasks</h2>
+                </div>
+                <div class="Tasks border-bottom mt-2">
+                  <div
+                    class="w-100 ms-3 d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div>
+                      <span class="fw-bold d-block mt-2 mt-md-0 me-4 me-md-0"
+                        >Record One New Video
+                      </span>
+                      <span class="fs-6 fw-light text-black-50"
+                        >Record Python Create Exe Project</span
+                      >
+                    </div>
+                    <div class="me-4 fs-6">
+                      <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="Tasks border-bottom mt-2">
+                  <div
+                    class="w-100 ms-3 d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div>
+                      <span class="fw-bold d-block mt-2 mt-md-0 me-4 me-md-0"
+                        >Write Article
+                      </span>
+                      <span class="fs-6 fw-light text-black-50"
+                        >Write Low Level vs High Level Languages</span
+                      >
+                    </div>
+                    <div class="me-4 fs-6">
+                      <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="Tasks border-bottom mt-2">
+                  <div
+                    class="w-100 ms-3 d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div>
+                      <span class="fw-bold d-block mt-2 mt-md-0 me-4 me-md-0"
+                        >Finish Project</span
+                      >
+                      <span class="fs-6 fw-light text-black-50"
+                        >Publish Academy Programming Project</span
+                      >
+                    </div>
+                    <div class="me-4 fs-6">
+                      <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                  </div>
+                </div>
+                <div
+                  class="Tasks border-bottom mb-0 mt-2 opacity-25 text-decoration-line-through"
+                >
+                  <div
+                    class="w-100 ms-3 d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div>
+                      <span class="fw-bold d-block mt-2 mt-md-0 me-4 me-md-0"
+                        >Attend The Meeting</span
+                      >
+                      <span class="fs-6 fw-light text-black-50"
+                        >Attend The Project Business Analysis Meeting</span
+                      >
+                    </div>
+                    <div class="me-4 fs-6">
+                      <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                  </div>
+                </div>
+                <div class="Tasks mb-0 mt-2">
+                  <div
+                    class="w-100 ms-3 d-flex justify-content-between align-items-center mb-3"
+                  >
+                    <div>
+                      <span class="fw-bold d-block mt-2 mt-md-0 me-4 me-md-0"
+                        >Finish Lesson</span
+                      >
+                      <span class="fs-6 fw-light text-black-50"
+                        >Finish Teaching Flex Box</span
+                      >
+                    </div>
+                    <div class="me-4 fs-6">
+                      <i class="fa-regular fa-trash-can delete"></i>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Top-Search -->
+            <div class="col Top-Search">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold mb-4 fs-4">Top Search Items</h2>
+                  <div
+                    class="d-flex justify-content-between border-bottom mb-4"
+                  >
+                    <p class="text-black-50">Keyword</p>
+                    <p class="text-black-50">Search Count</p>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0"
+                      >Programming
+                    </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">220</span>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0"
+                      >JavaScript
+                    </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">180</span>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0">PHP </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">160</span>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0">Code </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">145</span>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0"
+                      >Design
+                    </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">110</span>
+                  </div>
+                </div>
+                <div
+                  class="Search mt-2 d-flex justify-content-between align-items-center mb-3"
+                >
+                  <div>
+                    <span class="d-block mt-2 mt-md-0 me-4 me-md-0"
+                      >Logic
+                    </span>
+                  </div>
+                  <div class="mt-2 mt-md-0 me-4 me-md-0 fs-6 fw-light">
+                    <span class="bg-secondary-subtle rounded-2 p-1">95</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Latest-Uploads -->
+            <div class="col Latest-Uploads">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold fs-4 mb-3">Latest Uploads</h2>
+                </div>
+                <div class="Uploads d-flex border-bottom mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/pdf.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-1 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">my-file.pdf</span>
+                      <span class="fs-6 text-black-50">Elzero</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >2.9mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="Uploads d-flex border-bottom mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/avi.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-1 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">My-Video-File.avi</span>
+                      <span class="fs-6 text-black-50">Admin</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >4.5mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="Uploads d-flex border-bottom mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/psd.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-1 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">My-Psd-File.pdf</span>
+                      <span class="mt-1 fs-6 text-black-50">Admin</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >4.9mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="Uploads d-flex border-bottom mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/zip.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-1 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">My-Zip-File.pdf</span>
+                      <span class="mt-1 fs-6 text-black-50">User</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >8.9mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="Uploads d-flex border-bottom mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/dll.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-1 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">My-DLL-File.pdf</span>
+                      <span class="mt-1 fs-6 text-black-50">Designe</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >4.9mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+                <div class="Uploads d-flex mt-2">
+                  <div class=" ">
+                    <img
+                      src="../IMAGES/eps.svg"
+                      alt=""
+                      class="mw-100 rounded-3"
+                      style="width: 40px; height: 40px"
+                    />
+                  </div>
+                  <div
+                    class="spans w-100 d-flex justify-content-between align-items-center mb-0 ms-2"
+                  >
+                    <div>
+                      <span class="d-block">My-Eps-File.pdf</span>
+                      <span class="mt-1 fs-6 text-black-50">Designe</span>
+                    </div>
+                    <div class="fs-6 fw-light">
+                      <span class="bg-secondary-subtle rounded-2 p-1"
+                        >8.9mb</span
+                      >
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Last-Project -->
+            <div class="col Last-Project">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <h2 class="fw-bold fs-4 mb-4">Last Project Progress</h2>
+                <ul class="list-unstyled position-relative">
+                  <li class="done mt-3 ms-5 position-relative">
+                    Got The Project
+                  </li>
+                  <li class="done mt-3 ms-5 position-relative">
+                    Started The Project
+                  </li>
+                  <li class="done mt-3 ms-5 position-relative">
+                    The Project About To Finish
+                  </li>
+                  <li
+                    class="current mt-3 ms-5 position-relative animated flash infinite"
+                  >
+                    Test The Project
+                  </li>
+                  <li class="finshed mt-3 ms-5 position-relative">
+                    Finish The Project & Get Money
+                  </li>
+                </ul>
+                <img
+                  src="../IMAGES/project.png"
+                  alt=""
+                  class="mw-100 opacity-25 position-absolute bottom-0 end-0 d-none d-lg-block"
+                  style="width: 100px; height: 100px"
+                />
+              </div>
+            </div>
+            <!-- Reminders -->
+            <div class="col Reminders">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <h2 class="fw-bold fs-4 mb-1">Reminders</h2>
+                <ul class="list-unstyled">
+                  <li class="mt-3 ms-5 position-relative fw-bold">
+                    Check My Tasks List
+                    <span class="d-block mt-0 text-black-50 fs-6 fw-light"
+                      >28/09/2022 - 12:00am</span
+                    >
+                  </li>
+                  <li class="mt-3 ms-5 position-relative fw-bold">
+                    Check My Projects
+                    <span class="d-block mt-0 text-black-50 fs-6 fw-light"
+                      >28/09/2022 - 12:00am</span
+                    >
+                  </li>
+                  <li class="mt-3 ms-5 position-relative fw-bold">
+                    Call All My Clients
+                    <span class="d-block mt-0 text-black-50 fs-6 fw-light"
+                      >28/09/2022 - 12:00am</span
+                    >
+                  </li>
+                  <li class="mt-3 ms-5 position-relative fw-bold">
+                    Finish The Workshop
+                    <span class="d-block mt-0 text-black-50 fs-6 fw-light"
+                      >28/09/2022 - 12:00am</span
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+            <!-- Latest-post -->
+            <div class="col Latest-post">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <h2 class="fw-bold fs-4 mb-3">Latest post</h2>
+                <div class="intro">
+                  <div class="d-block d-flex align-items-center mt-2 p-2">
+                    <div>
+                      <img
+                        src="../IMAGES/avatar.png"
+                        alt=""
+                        class="mw-100 rounded-circle"
+                        style="width: 60px"
+                      />
+                    </div>
+                    <div class="spans w-100 ms-2 mb-2">
+                      <div>
+                        <span class="fw-bold d-block mt-2">Osama Elzero </span>
+                        <span class="mt-0 fw-light text-black-50"
+                          >About 3 Hours Ago</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+                <p class="d-block mt-3 mb-4 pt-3 pb-3 border-bottom border-top">
+                  You Can Fool All Of The People Some Of The Time, And Some Of
+                  The People All Of The Time, But You Can't Fool All Of The
+                  People All Of The Time.
+                </p>
+                <div
+                  class="interaction d-flex justify-content-between align-items-center"
+                >
+                  <span class="d-block text-black-50"
+                    ><i class="fa-regular fa-heart"></i> 1.8K</span
+                  >
+                  <span class="d-block text-black-50"
+                    ><i class="fa-regular fa-comments"></i> 500</span
+                  >
+                </div>
+              </div>
+            </div>
+            <!-- Social-Media-Stats -->
+            <div class="col Social-Media-Stats">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <h2 class="fw-bold fs-4 mb-3">Social Media Stats</h2>
+                <div
+                  class="Social-twitter p-2 d-flex align-items-center justify-content-between position-relative mt-2"
+                >
+                  <div
+                    class="icon d-flex align-items-center justify-content-center me-3"
+                  >
+                    <i class="fa-brands fa-twitter fs-4"></i>
+                  </div>
+                  <span class="ms-5">90K Followers</span>
+                  <div class="link">
+                    <a
+                      href="index.html"
+                      class="btn mt-0 d-block d-table fw-bold text-white btn-sm"
+                      >Follow</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="Social-facebook p-2 d-flex align-items-center justify-content-between position-relative mt-2"
+                >
+                  <div
+                    class="icon d-flex align-items-center justify-content-center me-3"
+                  >
+                    <i class="fa-brands fa-facebook-f fs-4"></i>
+                  </div>
+                  <span class="ms-5">2M Like</span>
+                  <div class="link">
+                    <a
+                      href="index.html"
+                      class="btn mt-0 d-block d-table fw-bold text-white btn-sm"
+                      >Like</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="Social-youtube p-2 d-flex align-items-center justify-content-between position-relative mt-2"
+                >
+                  <div
+                    class="icon d-flex align-items-center justify-content-center me-3"
+                  >
+                    <i class="fa-brands fa-youtube fs-4"></i>
+                  </div>
+                  <span class="ms-5">1M Subs</span>
+                  <div class="link">
+                    <a
+                      href="index.html"
+                      class="btn mt-0 d-block d-table fw-bold text-white btn-sm"
+                      >Subscribe</a
+                    >
+                  </div>
+                </div>
+                <div
+                  class="Social-linkedin p-2 d-flex align-items-center justify-content-between position-relative mt-2"
+                >
+                  <div
+                    class="icon d-flex align-items-center justify-content-center me-3"
+                  >
+                    <i class="fa-brands fa-linkedin fs-4"></i>
+                  </div>
+                  <span class="ms-5">70K Followers</span>
+                  <div class="link">
+                    <a
+                      href="index.html"
+                      class="btn mt-0 d-block d-table fw-bold text-white btn-sm"
+                      >Follow</a
+                    >
+                  </div>
+                </div>
+              </div>
+            </div>
+            <!-- Projects -->
+            <div class="col Projects w-100">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div class="card-body table-responsive">
+                  <h2 class="fw-bold fs-4 mb-3">Projects</h2>
+                  <table class="table table-bordered" style="min-width: 1000px">
+                    <thead class="table-secondary fw-bold">
+                      <tr>
+                        <td>Name</td>
+                        <td>Finish Date</td>
+                        <td>Client</td>
+                        <td>Price</td>
+                        <td>Team</td>
+                        <td>Status</td>
+                      </tr>
+                    </thead>
+                    <tbody>
+                      <tr>
+                        <td>Ministry Wikipedia</td>
+                        <td>10 May 2022</td>
+                        <td>Ministry</td>
+                        <td>$5300</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-01.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-02.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-03.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-04.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-warning ms-auto btn-sm text-center d-block"
+                            >Pending</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Elzero Shop</td>
+                        <td>12 Oct 2021</td>
+                        <td>Elzero Company</td>
+                        <td>$1500</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-01.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-02.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-04.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-primary ms-auto btn-sm text-center d-block"
+                            >In Progress</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Bouba App</td>
+                        <td>05 Sep 2021</td>
+                        <td>Bouba</td>
+                        <td>$800</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-03.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-05.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-success ms-auto btn-sm text-center d-block"
+                            >Completed</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Mahmoud Website</td>
+                        <td>22 May 2021</td>
+                        <td>Mahmoud</td>
+                        <td>$600</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-05.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-02.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-success ms-auto btn-sm text-center d-block"
+                            >Completed</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Sayed Website</td>
+                        <td>24 May 2021</td>
+                        <td>Sayed</td>
+                        <td>$300</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-01.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-04.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-danger ms-auto btn-sm text-center d-block"
+                            >Rejected</a
+                          >
+                        </td>
+                      </tr>
+                      <tr>
+                        <td>Arena Application</td>
+                        <td>01 Mar 2021</td>
+                        <td>Arena Company</td>
+                        <td>$2600</td>
+                        <td>
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-01.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-04.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-05.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                          <img
+                            decoding="async"
+                            src="../IMAGES/team-02.png"
+                            alt=""
+                            class="mw-100 rounded-circle p-1 bg-white"
+                            style="width: 32px; height: 32px"
+                          />
+                        </td>
+                        <td>
+                          <a
+                            href="index.html"
+                            class="btn btn-success ms-auto btn-sm text-center d-block"
+                            >Completed</a
+                          >
+                        </td>
+                      </tr>
+                    </tbody>
+                  </table>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- e content -->
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/all.min.js"></script>
+    <script src="../JS/Script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/master.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../IMAGES/favicon-32x32.png" />
+    <title>Profile</title>
+  </head>
+  <body>
+    <div class="page d-flex min-vh-100 bg-body-secondary">
+      <!-- s sidebar -->
+      <div
+        class="sidebar bg-white shadow position-relative text-center p-2 p-md-4"
+      >
+        <h3
+          class="position-relative text-center fw-bold fs-6 fs-md-5 p-1 mb-1 mb-md-5"
+        >
+          Elzero
+        </h3>
+        <ul class="list-unstyled p-0">
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-simple"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-none d-md-block fs-6 ms-2">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- e sidebar -->
+      <!-- s content -->
+      <div class="content overflow-hidden w-100">
+        <!-- s head -->
+        <div
+          class="head bg-white shadow d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="search position-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="border border-secondary-subtle rounded-3 ms-2 ps-4 p-2 fs-6 fw-light"
+              style="width: 170px"
+            />
+          </div>
+          <div class="icon d-flex align-items-center">
+            <span class="position-relative"
+              ><i class="fa-regular fa-bell fs-5"></i
+            ></span>
+            <img
+              src="../IMAGES/avatar.png"
+              alt=""
+              class="rounded-circle ms-3"
+              style="width: 32px; height: 32px"
+            />
+          </div>
+        </div>
+        <!-- e head -->
+        <h1 class="mt-4 mb-5 mx-4 position-relative fw-bold fs-3 m-0">
+          Profile
+        </h1>
+        <div class="containr">
+          <div class="row row-cols-1 row-cols-xl-2 p-3 g-3">
+            <div class="col info">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <div
+                  class="img shadow rounded-3 text-center d-flex flex-column align-items-center justify-content-center p-3 h-25"
+                >
+                  <img
+                    src="../IMAGES/avatar.png"
+                    alt=""
+                    class="rounded-circle mb-3 mw-100"
+                    style="width: 110px"
+                  />
+                  <h3 class="m-0 fw-bold fs-5">Osama Elzero</h3>
+                  <p class="mt-0 text-black-50">Level 20</p>
+                  <div
+                    class="progress"
+                    role="progressbar"
+                    aria-label="Example 20px high"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 150px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                  <div
+                    class="icons d-flex mt-3 align-items-center justify-content-center"
+                  >
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                    <i class="fa-solid fa-star text-warning"></i>
+                  </div>
+                  <p class="mt-2 text-black-50 fw-light fs-6">550 Rating</p>
+                </div>
+                <div class="box border-0 p-3 shadow rounded-3 mt-4">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom mb-3"
+                  >
+                    <p class="text-black fs-6 d-block">General Information</p>
+                    <div class="form-check form-switch ms-2 mb-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                      >
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Full Name :
+                      <span class="fs-6 text-black">Osama Mohamed</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Gender :
+                      <span class="fs-6 text-black">Male</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Country :
+                      <span class="fs-6 text-black">Egypt</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="box border-0 p-3 shadow rounded-3 mt-4">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom mb-3"
+                  >
+                    <p class="text-black fs-6 d-block">Personal Information</p>
+                    <div class="form-check form-switch ms-2 mb-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                      >
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Email :
+                      <span class="fs-6 text-black">o@nn.sa</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Phone :
+                      <span class="fs-6 text-black">019123456789</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Date Of Birth :
+                      <span class="fs-6 text-black">25/10/1982</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="box border-0 p-3 shadow rounded-3 mt-4">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom mb-3"
+                  >
+                    <p class="text-black fs-6 d-block">Job Information</p>
+                    <div class="form-check form-switch ms-2 mb-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                      >
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Title :
+                      <span class="fs-6 text-black">Full Stack Developer</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Programming Language :
+                      <span class="fs-6 text-black"> Python</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Years Of Experience :
+                      <span class="fs-6 text-black">15+</span>
+                    </p>
+                  </div>
+                </div>
+                <div class="box border-0 p-3 shadow rounded-3 mt-4 mb-0">
+                  <div
+                    class="d-flex align-items-center justify-content-between border-bottom mb-3"
+                  >
+                    <p class="text-black fs-6 d-block">Billing Information</p>
+                    <div class="form-check form-switch ms-2 mb-3">
+                      <input
+                        class="form-check-input"
+                        type="checkbox"
+                        role="switch"
+                        id="flexSwitchCheckDefault"
+                        checked
+                      />
+                      <label
+                        class="form-check-label"
+                        for="flexSwitchCheckDefault"
+                      >
+                      </label>
+                    </div>
+                  </div>
+                  <div>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Payment Method :
+                      <span class="fs-6 text-black">Paypal</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Email :
+                      <span class="fs-6 text-black">email@website.com</span>
+                    </p>
+                    <p class="mt-1 text-black-50 fs-6">
+                      Subscription :
+                      <span class="fs-6 text-black">Monthly</span>
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="col">
+              <div
+                class="card card p-3 overflow-hidden border-0 rounded-3 mb-3"
+              >
+                <div class="Skills p-3 shadow rounded-3 mb-2">
+                  <div class="card p-3 overflow-hidden border-0 rounded-3">
+                    <div class="text-center">
+                      <h2 class="fw-bold m-0 fs-5">My Skills</h2>
+                      <p class="text-black-50 fs-6 mt-1">
+                        Complete Skills List
+                      </p>
+                    </div>
+                    <ul class="list-unstyled mt-2">
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >HTML</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Pugjs</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >HAML</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >CSS</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >CSS</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Stylus</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >JavaScript</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >TypeScript</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >Vuejs</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Reactjs</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >Jest</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Jasmine</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >PHP</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Laravel</span
+                        >
+                      </li>
+                      <li class="border-bottom p-3">
+                        <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                          >Python</span
+                        >
+                        <span
+                          class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                          >Django</span
+                        >
+                      </li>
+                    </ul>
+                  </div>
+                </div>
+              </div>
+              <div class="card card p-3 overflow-hidden border-0 rounded-3">
+                <div class="Activities p-3 shadow rounded-3">
+                  <div class="card p-3 overflow-hidden border-0 rounded-3">
+                    <div class="text-center">
+                      <h2 class="fw-bold m-0 fs-5">Latest Activities</h2>
+                      <p class="text-black-50 fs-6 mt-1">
+                        Latest Activities Done By The User
+                      </p>
+                    </div>
+                    <div
+                      class="d-block border-top border-bottom d-xl-flex align-items-center justify-content-center text-center text-xl-start p-3"
+                    >
+                      <div>
+                        <img
+                          src="../IMAGES/activity-01.png"
+                          alt=""
+                          class="mw-100 rounded-circle ms-4 ms-xl-0 mb-3 mb-xl-0"
+                          style="width: 80px; height: 70px"
+                        />
+                      </div>
+                      <div class="spans w-100 ms-3">
+                        <span class="d-block fs-6">Created SASS Section </span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >New SASS Examples & Tutorials</span
+                        >
+                        <span class="d-block fs-6">18:10 </span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >Yesterday</span
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="d-block border-bottom d-xl-flex align-items-center text-center text-xl-start p-3"
+                    >
+                      <div>
+                        <img
+                          src="../IMAGES/activity-02.png "
+                          alt=""
+                          class="mw-100 rounded-circle ms-4 ms-xl-0 mb-3 mb-xl-0"
+                          style="width: 80px; height: 70px"
+                        />
+                      </div>
+                      <div class="spans w-100 ms-3">
+                        <span class="d-block fs-6">Changed The Design </span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >A Brand New Website Design</span
+                        >
+                        <span class="d-block fs-6">16:05 </span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >Yesterday</span
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="d-block border-bottom d-xl-flex align-items-center text-center text-xl-start p-3"
+                    >
+                      <div>
+                        <img
+                          src="../IMAGES/activity-03.png"
+                          alt=""
+                          class="mw-100 rounded-circle ms-4 ms-xl-0 mb-3 mb-xl-0"
+                          style="width: 80px; height: 70px"
+                        />
+                      </div>
+                      <div class="spans w-100 ms-3">
+                        <span class="d-block fs-6">Team Increased</span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >3 Developers Joined The Team</span
+                        >
+                        <span class="d-block fs-6">18:05</span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >yasterday</span
+                        >
+                      </div>
+                    </div>
+                    <div
+                      class="d-block border-bottom d-xl-flex align-items-center text-center text-xl-start p-3"
+                    >
+                      <div class="">
+                        <img
+                          src="../IMAGES/activity-01.png "
+                          alt=""
+                          class="mw-100 rounded-circle ms-4 ms-xl-0 mb-3 mb-xl-0"
+                          style="width: 80px; height: 70px"
+                        />
+                      </div>
+                      <div class="spans w-100 ms-3">
+                        <span class="d-block fs-6">Added Payment Gateway</span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >New Payment Gateways Added</span
+                        >
+                        <span class="d-block fs-6">12:05</span>
+                        <span class="fs-6 fw-light text-black-50"
+                          >yasterday</span
+                        >
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- e content -->
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/all.min.js"></script>
+    <script src="../JS/Script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/master.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../IMAGES/favicon-32x32.png" />
+    <title>Projects</title>
+  </head>
+  <body>
+    <div class="page d-flex min-vh-100 bg-body-secondary">
+      <!-- s sidebar -->
+      <div
+        class="sidebar bg-white shadow position-relative text-center p-2 p-md-4"
+      >
+        <h3
+          class="position-relative text-center fw-bold fs-6 fs-md-5 p-1 mb-1 mb-md-5"
+        >
+          Elzero
+        </h3>
+        <ul class="list-unstyled p-0">
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-simple"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-none d-md-block fs-6 ms-2">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- e sidebar -->
+      <!-- s content -->
+      <div class="content overflow-hidden w-100">
+        <!-- s head -->
+        <div
+          class="head bg-white shadow d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="search position-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="border border-secondary-subtle rounded-3 ms-2 ps-4 p-2 fs-6 fw-light"
+              style="width: 170px"
+            />
+          </div>
+          <div class="icon d-flex align-items-center">
+            <span class="position-relative"
+              ><i class="fa-regular fa-bell fs-5"></i
+            ></span>
+            <img
+              src="../IMAGES/avatar.png"
+              alt=""
+              class="rounded-circle ms-3"
+              style="width: 32px; height: 32px"
+            />
+          </div>
+        </div>
+        <!-- e head -->
+        <h1 class="mt-4 mb-5 mx-4 position-relative fw-bold fs-3 m-0">
+          Profile
+        </h1>
+        <div class="containr">
+          <div class="row row-cols-1 row-cols-xl-2 p-3 g-3">
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Elzero Dashboard</p>
+                <p class="text-black-50 m-0">15/10/2021</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-01.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-05.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-04.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-03.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-04.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                    >Programming</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Design</span
+                  >
+
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Marketing</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2 bg-danger"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$2500 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Academy Portal</p>
+                <p class="text-black-50 m-0">15/6/2022</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-01.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-05.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-03.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Programming</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Design</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="95"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2 bg-success"
+                      style="width: 95%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$1800 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Chatting Application</p>
+                <p class="text-black-50 m-0">15/10/2021</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-05.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-04.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-04.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                    >Design</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="100"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2"
+                      style="width: 100%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$950 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Ahmed Dashboard</p>
+                <p class="text-black-50 m-0">15/10/2021</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-01.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-05.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-03.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-04.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                    >Programming</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Design</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Hosting</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="55"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2 bg-warning"
+                      style="width: 55%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$850 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Ahmed Portal</p>
+                <p class="text-black-50 m-0">15/10/2021</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-01.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-03.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6"
+                    >Programming</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Marketing</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="40"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2 bg-secondary"
+                      style="width: 40%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$1600 </span>
+                </div>
+              </div>
+            </div>
+            <div class="col project">
+              <div class="card p-3 overflow-hidden border-0 rounded-3 h-100">
+                <p class="fw-bold m-0">Mohamed Application</p>
+                <p class="text-black-50 m-0">15/10/2021</p>
+                <div class="imgs mt-4 mb-4">
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-01.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                  <img
+                    decoding="async"
+                    src="../IMAGES/team-03.png"
+                    alt=""
+                    class="mw-100 rounded-circle p-1 bg-white"
+                    style="width: 45px; height: 45px"
+                  />
+                </div>
+                <div class="spans border-top border-bottom pt-3 pb-3">
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Hosting</span
+                  >
+                  <span class="bg-secondary-subtle rounded-2 p-1 fs-6 ms-2"
+                    >Marketing</span
+                  >
+                </div>
+                <div
+                  class="d-flex align-items-center justify-content-between pt-3 pb-0"
+                >
+                  <div
+                    class="progress me-3"
+                    role="progressbar"
+                    aria-label=" Example 20px high"
+                    aria-valuenow="75"
+                    aria-valuemin="0"
+                    aria-valuemax="100"
+                    style="width: 220px; height: 7px"
+                  >
+                    <div
+                      class="progress-bar rounded-2 bg-info"
+                      style="width: 75%"
+                    ></div>
+                  </div>
+                  <span class="text-black-50">$500 </span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- e content -->
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/all.min.js"></script>
+    <script src="../JS/Script.js"></script>
+  </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="stylesheet" href="../CSS/bootstrap.min.css" />
+    <link rel="stylesheet" href="../CSS/master.css" />
+    <link rel="stylesheet" href="../CSS/all.min.css" />
+
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" type="image/x-icon" href="../IMAGES/favicon-32x32.png" />
+    <title>Settings</title>
+  </head>
+  <body>
+    <div class="page d-flex min-vh-100 bg-body-secondary">
+      <!-- s sidebar -->
+      <div
+        class="sidebar bg-white shadow position-relative text-center p-2 p-md-4"
+      >
+        <h3
+          class="position-relative text-center fw-bold fs-6 fs-md-5 p-1 mb-1 mb-md-5"
+        >
+          Elzero
+        </h3>
+        <ul class="list-unstyled p-0">
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="index.html"
+            >
+              <i class="fa-solid fa-chart-simple"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="active d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Settings.html"
+            >
+              <i class="fa-solid fa-gear"></i>
+              <span class="d-none d-md-block fs-6 ms-2">Settings</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Profile.html"
+            >
+              <i class="fa-solid fa-graduation-cap fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Profile</span>
+            </a>
+          </li>
+          <li>
+            <a
+              class="d-flex align-items-center justify-content-center justify-content-md-start fs-6 text-dark rounded-1 p-2 mb-1"
+              href="Projects.html"
+            >
+              <i class="fa-solid fa-diagram-project fa-fw"></i
+              ><span class="d-none d-md-block fs-6 ms-2">Projects</span>
+            </a>
+          </li>
+        </ul>
+      </div>
+      <!-- e sidebar -->
+      <!-- s content -->
+      <div class="content overflow-hidden w-100">
+        <!-- s head -->
+        <div
+          class="head bg-white shadow d-flex align-items-center justify-content-between p-3"
+        >
+          <div class="search position-relative">
+            <input
+              type="search"
+              placeholder="Type A Keyword"
+              class="border border-secondary-subtle rounded-3 ms-2 ps-4 p-2 fs-6 fw-light"
+              style="width: 170px"
+            />
+          </div>
+          <div class="icon d-flex align-items-center">
+            <span class="position-relative"
+              ><i class="fa-regular fa-bell fs-5"></i
+            ></span>
+            <img
+              src="../IMAGES/avatar.png"
+              alt=""
+              class="rounded-circle ms-3"
+              style="width: 32px; height: 32px"
+            />
+          </div>
+        </div>
+        <!-- e head -->
+        <h1 class="mt-4 mb-5 mx-4 position-relative fw-bold fs-3 m-0">
+          Settings
+        </h1>
+        <div class="containr">
+          <div class="row row-cols-1 row-cols-xl-2 g-3 p-3">
+            <div class="col Site">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Site Control</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Control The Website If There Is Maintenance
+                  </p>
+                </div>
+                <div class="d-flex justify-content-between align-items-center">
+                  <div>
+                    <p class="m-0 fs-6">Website Control</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Open/Close Website And Type The Reason
+                    </p>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                </div>
+                <div class="border-top mt-3">
+                  <textarea
+                    class="form-control bg-body-secondary border-0 mt-5 mb-0 fw-light"
+                    id="exampleFormControlTextarea1"
+                    placeholder="close message content"
+                    style="height: 150px"
+                  ></textarea>
+                </div>
+              </div>
+            </div>
+            <div class="col General">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">General Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    General Information About Your Account
+                  </p>
+                </div>
+                <div class="mb-3">
+                  <label for="First name" class="text-black-50 mb-1"
+                    >First name :</label
+                  >
+                  <input
+                    type="text"
+                    for="First name"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Second name" class="text-black-50 mb-1"
+                    >Second name :</label
+                  >
+                  <input
+                    type="text"
+                    for="Second name"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <div class="mb-3">
+                  <label for="Email" class="text-black-50 mb-1">Email :</label>
+                  <input
+                    type="email"
+                    for="Email"
+                    class="form-control"
+                    id="exampleFormControlInput1"
+                  />
+                </div>
+                <a
+                  href="index.html"
+                  class="btn btn-primary mt-4 me-3 mb-1 ms-auto btn-sm"
+                  >Save</a
+                >
+              </div>
+            </div>
+            <div class="col Security">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Security Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Security Information About Your Account
+                  </p>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center border-bottom mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Password</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Last Change On 25/10/2021
+                    </p>
+                  </div>
+                  <a href="index.html" class="btn btn-primary ms-auto btn-sm"
+                    >Change</a
+                  >
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center border-bottom mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Two-Factor Authentication</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Enable/Disable The Feature
+                    </p>
+                  </div>
+                  <div class="form-check form-switch">
+                    <input
+                      class="form-check-input"
+                      type="checkbox"
+                      role="switch"
+                      id="flexSwitchCheckChecked"
+                      checked
+                    />
+                  </div>
+                </div>
+                <div
+                  class="d-flex justify-content-between align-items-center mt-3"
+                >
+                  <div>
+                    <p class="m-0 fs-6">Devices</p>
+                    <p
+                      class="mt-0 text-start text-black-50 fw-light text-lowercase"
+                    >
+                      Check The Login Devices List
+                    </p>
+                  </div>
+                  <a
+                    href="index.html"
+                    class="badge text-bg-secondary ms-auto btn-sm"
+                    >Devices</a
+                  >
+                </div>
+              </div>
+            </div>
+            <div class="col Social">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Social Info</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Social Media Information
+                  </p>
+                </div>
+                <div class="input-group mb-3 mt-4">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-twitter fs-6 text-info"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Twitter Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-facebook-f fs-4 text-primary"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Facebook Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i
+                      class="fa-brands fa-linkedin text-primary-emphasis opacity-75"
+                    ></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="linkedin Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+                <div class="input-group mb-3">
+                  <span class="input-group-text" id="basic-addon1"
+                    ><i class="fa-brands fa-youtube text-danger"></i
+                  ></span>
+                  <input
+                    type="text"
+                    class="form-control fw-light"
+                    placeholder="Youtube Username"
+                    aria-label="Username"
+                    aria-describedby="basic-addon1"
+                  />
+                </div>
+              </div>
+            </div>
+            <div class="col Widgets">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Widgets Control</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Show/Hide Widgets
+                  </p>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Quick Draft
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Yearly Targets
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Tickets Statistics
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Tickets Statistics
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Latest Tasks
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="checkbox"
+                    value=""
+                    id="flexCheckChecked"
+                    checked
+                  />
+                  <label class="form-check-label" for="flexCheckChecked">
+                    Latest Tasks
+                  </label>
+                </div>
+              </div>
+            </div>
+            <div class="col Backup">
+              <div class="card h-100 p-3 overflow-hidden border-0 rounded-3">
+                <div>
+                  <h2 class="fw-bold m-0 fs-5">Backup Manager</h2>
+                  <p class="mt-1 text-start text-black-50 fs-6">
+                    Control Backup Time And Location
+                  </p>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                    checked
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Daily
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Weekly
+                  </label>
+                </div>
+                <div class="form-check mt-3">
+                  <input
+                    class="form-check-input"
+                    type="radio"
+                    name="exampleRadios"
+                    id="exampleRadios1"
+                    value="option1"
+                  />
+                  <label class="form-check-label" for="exampleRadios1">
+                    Monthly
+                  </label>
+                </div>
+                <div
+                  class="servers d-block d-md-flex align-items-center justify-content-between border-top p-3 mt-4 text-center g-3"
+                >
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <i class="fa-solid fa-server text-success"></i>
+                    Mega
+                  </div>
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <label for="server-two" class="">
+                      <i class="fa-solid fa-server text-danger"></i>
+                      Zero
+                    </label>
+                  </div>
+                  <div
+                    class="server w-100 border rounded-3 p-4 m-1"
+                    style="height: 70px"
+                  >
+                    <label for="server-three">
+                      <i class="fa-solid fa-server text-info"></i>
+                      Sigma
+                    </label>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <!-- e content -->
+    </div>
+    <script src="../JS/bootstrap.bundle.min.js"></script>
+    <script src="../JS/all.min.js"></script>
+    <script src="../JS/Script.js"></script>
+  </body>
+</html>
